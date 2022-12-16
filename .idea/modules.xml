@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ecomerce.iml" filepath="$PROJECT_DIR$/.idea/ecomerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ecomerce-FullStack-React\Redux.iml" filepath="$PROJECT_DIR$/.idea/Ecomerce-FullStack-React\Redux.iml" />
     </modules>
   </component>
 </project>
