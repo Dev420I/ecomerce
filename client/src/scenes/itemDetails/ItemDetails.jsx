@@ -25,7 +25,7 @@ const ItemDetails = () => {
 
     async function getItem() {
         const item = await fetch(
-            `http://localhost:2000/api/items/${itemId}?populate=image`,
+            `http://localhost:1337/api/items/${itemId}?populate=image`,
             {
                 method: "GET",
             }
@@ -36,7 +36,7 @@ const ItemDetails = () => {
 
     async function getItems() {
         const items = await fetch(
-            `http://localhost:2000/api/items?populate=image`,
+            `http://localhost:1337/api/items?populate=image`,
             {
                 method: "GET",
             }
@@ -59,7 +59,7 @@ const ItemDetails = () => {
                         alt={item?.name}
                         width="100%"
                         height="100%"
-                        src={`http://localhost:2000${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
+                        src={`http://localhost:1337${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
                         style={{ objectFit: "contain" }}
                     />
                 </Box>
